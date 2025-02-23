@@ -143,13 +143,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
+      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%">
         <source src="static/videos/banner_video.mp4"
         type="video/mp4">
-      </video>
+      </video> -->
+      <img src="static/images/ab1.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Tri-zone prior decomposes the content of the model image to determine whether it belongs to the try-on, reconstruction, or imagination zone. Different from commonly used binary mask priors, such priors can endow our CrossVTON with the capability of cross-category virtual try-on. 
       </h2>
     </div>
   </div>
@@ -173,6 +173,22 @@
 </section>
 <!-- End paper abstract -->
 
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/cross_pipeline.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          An overview of the whole pipeline and the structure of CrossVTON which consists of Tri-zone  and Try-on Net. The pipeline illustrates two rounds iterative cross-category data construction by synthesizing the Intra-category, Any-to-dress, and  Dress-to-any data. At each round, the CrossVTON is trained progressively to generate tri-zone priors and endow the ability of cross-category virtual try-on.
+        </h2>
+      </div>
+    </div>
+    </div>
+    </div>
+</section>
 
 <!-- Image carousel -->
 <section class="hero is-small">
